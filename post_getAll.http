@@ -1,0 +1,21 @@
+## Create Book
+POST http://localhost:8080/books
+
+{"name_book":"The Great Gatsby",
+"author" : "F. Scott Fritzgerald"}
+
+## GET All Book
+GET http://localhost:8080/books
+
+## GET Book By ID
+GET http://localhost:8080/books/2
+
+## UPDATE Book
+PUT http://localhost:8080/books/2
+{
+"name_book":"New Book Edited",
+"author" : "Me"
+}
+
+
+
