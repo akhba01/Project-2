@@ -56,7 +56,7 @@ func CreateBook(ctx *gin.Context) {
 		return
 	}
 
-	ctx.JSON(http.StatusOK, book)
+	ctx.JSON(http.StatusCreated, book)
 }
 
 type UpdateBookInput struct {
